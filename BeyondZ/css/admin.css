@@ -1,0 +1,227 @@
+/*
+Clapat CSS framework for admin only.
+Please do not thouch this unless you know what you`re doing.
+*/
+.clearfix:after {
+	content:" ";
+	clear:both;
+	visibility:hidden;
+	height:0;
+	display:block;
+}
+
+#clapat-error-message { position: fixed; left: 50%; top:200px; margin-left: -100px; width:400px; background:#339933; border-radius:25px; padding:20px; text-align:center; color:#fff; font-size:18px; }
+
+#clapat-settings .bottombuttons #button-reset {
+	width:120px;
+	height:40px;
+
+	font-size:12px;
+	font-weight:bold;
+	line-height:33px;
+
+	color:#fff;
+	text-shadow:0px 1px 0px rgba(0,0,0,.2);
+
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+
+	-webkit-box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+	-moz-box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+	box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+
+	float:left;
+	background: -webkit-linear-gradient(top,  rgba(248,114,136,1) ,rgba(206,59,70,1));
+	background: -moz-linear-gradient(top,  rgba(248,114,136,1) ,rgba(206,59,70,1));
+	background: -o-linear-gradient(top,  rgba(248,114,136,1) ,rgba(206,59,70,1));
+	background: -ms-linear-gradient(top,  rgba(248,114,136,1) ,rgba(206,59,70,1));
+	background: linear-gradient(top,  rgba(248,114,136,1) ,rgba(206,59,70,1));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f87288', endColorstr='#ce3b46',GradientType=0 );
+
+	border:1px solid #b0333e;
+
+	
+	cursor:pointer;
+}
+
+#clapat-settings .bottombuttons #button-reset:hover {
+
+	background: -webkit-linear-gradient(top,rgba(206,59,70,1),  rgba(248,114,136,1) );
+	background:    -moz-linear-gradient(top,rgba(206,59,70,1),  rgba(248,114,136,1) );
+	background:      -o-linear-gradient(top,rgba(206,59,70,1),  rgba(248,114,136,1) );
+	background:     -ms-linear-gradient(top,rgba(206,59,70,1),  rgba(248,114,136,1) );
+	background:         linear-gradient(top,rgba(206,59,70,1),  rgba(248,114,136,1) );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ce3b46', endColorstr='#f87288',GradientType=0 );
+
+	cursor:pointer;
+}
+
+
+
+#clapat-settings .bottombuttons #button-save {
+	width:120px;
+	height:40px;
+
+	font-size:12px;
+	font-weight:bold;
+	line-height:33px;
+
+	color:#fff;
+	text-shadow:0px 1px 0px rgba(0,0,0,.2);
+
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+
+	-webkit-box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+	-moz-box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+	box-shadow:
+		inset 0px 1px 0px rgba(255,255,255,.5),
+		0px 1px 2px rgba(0,0,0,.3);
+
+	float:right;
+	background: -webkit-linear-gradient(top,  rgba(170,212,79,1),rgba(96,157,41,1));
+	background:    -moz-linear-gradient(top,  rgba(170,212,79,1),rgba(96,157,41,1));
+	background:      -o-linear-gradient(top,  rgba(170,212,79,1),rgba(96,157,41,1));
+	background:     -ms-linear-gradient(top,  rgba(170,212,79,1),rgba(96,157,41,1));
+	background:         linear-gradient(top,  rgba(170,212,79,1),rgba(96,157,41,1));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aad44f', endColorstr='#609d29',GradientType=0 );
+
+	border:1px solid #5b8821;
+
+	
+	cursor:pointer;
+}
+
+
+#clapat-settings .bottombuttons #button-save:hover {
+
+	background: -webkit-linear-gradient(top,rgba(96,157,41,1),rgba(170,212,79,1));
+	background:    -moz-linear-gradient(top,rgba(96,157,41,1),rgba(170,212,79,1));
+	background:      -o-linear-gradient(top,rgba(96,157,41,1),rgba(170,212,79,1));
+	background:     -ms-linear-gradient(top,rgba(96,157,41,1),rgba(170,212,79,1));
+	background:         linear-gradient(top,rgba(96,157,41,1),rgba(170,212,79,1));
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#609d29', endColorstr='#aad44f',GradientType=0 );
+
+	cursor:pointer;
+}
+
+
+/*#clapat-settings h4 { font-size:18px!important; font-weight:lighter; line-height:24px; }*/
+#clapat-settings h4 {
+    border-bottom: 1px solid #E7E7E7;
+    margin: 10px 0;
+    padding: 7px 0;
+}
+
+#clapat-settings .inline-items {}
+#clapat-settings .inline-items > * {display:inline-block; *display:inline; zoom:1; vertical-align: middle; }
+#clapat-settings .inline-items .size { width:50px; }
+#clapat-settings .inline-items .font {  width:200px; }
+#clapat-settings .inline-items .color {  width:75px; }
+#clapat-settings .inline-items .picker-preview { width:27px; height:27px; cursor:pointer; }
+#clapat-settings .inline-items .picker-preview > span { display:block; width:100%; height:100%; background:url(../images/admin/colorpicker/select.png) no-repeat top left; }
+#clapat-settings .inline-items .cpicker { width:100px; }
+
+.hr-line {background-color:#e6e6e6; height:1px; width:100%; margin-bottom:40px; margin-top:40px;}
+
+#clapat-settings .clapat-left { float:right; width:610px; min-height:400px; background:#fff/*FC4F03*/; margin:20px 20px 20px 0 }
+#clapat-settings { width:800px; background:#e4e4e4;  margin-top:30px; margin-left:10px; border-radius:5px; }
+#clapat-settings .toptext{
+	background:url(../images/admin-settings-bg.png);
+	background-repeat:repeat-x;
+	padding-left:30px;
+	margin:0;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+ }
+ 
+ #admin-panel-logo{ 
+	background:url(../images/admin-settings.png) no-repeat top left;
+	height:110px;
+	
+ }
+#clapat-settings:after { content:"."; height:1px; display:block; visibility:hidden; clear:both;}
+#clapat-settings ul.ui-tabs-nav { float:left; width:150px; padding:0; margin:20px 0px 0px 20px;}
+#clapat-settings ul.ui-tabs-nav li { border-bottom:1px solid #939393; margin-bottom:5px; background:#939393; }
+#clapat-settings ul.ui-tabs-nav li  a{ display:block; padding:10px; color:#fff; text-decoration:none; outline: 0;  }
+#clapat-settings ul.ui-tabs-nav li.ui-state-active  a{ background:#ffefde; color:#21759B; border-right:0; background: #ffffff; outline: 0;}
+
+
+#clapat-settings div.ui-tabs-panel {padding:10px 30px 20px 30px;  }
+#clapat-settings .bottombuttons   { padding:20px; height:40px; border-radius:0px 0px 5px 5px;  border-top: 1px solid #D8D8D8;
+background: #f8f8f8; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y4ZjhmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNWU1ZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #f8f8f8 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f8f8f8), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f8f8f8 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f8f8f8 0%,#e5e5e5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f8f8f8 0%,#e5e5e5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f8f8f8 0%,#e5e5e5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-8 */
+
+}
+#clapat-settings .bottombuttons .button-primary  { float:right;  }
+
+
+#clapat-settings select, #clapat-settings input[type=text], #clapat-settings textarea {
+	width:550px;
+}
+
+
+#clapat-settings ul.sortable li .removeitem { position:absolute; right:10px; top:5px; }
+#clapat-settings ul.sortable li { cursor:pointer; border-bottom:1px solid #e8e8e8; padding-bottom:5px; position:relative;}
+#clapat-settings ul.sortable li:last-child { border:0;}
+#clapat-settings ul.sortable input[type=text] { width:200px; }
+
+#clapat-settings .divby3 { float:left; width:170px; }
+#clapat-settings .divby3 h4{ margin:0 10px 5px 10px; }
+#clapat-settings .divby3 { margin-left:10px; }
+#clapat-settings .divby3:first-child { margin-left:5px; }
+#clapat-settings .postbox .hndle { font-size: 15px; font-weight: normal; line-height: 1; padding:5px; }
+#clapat-settings .postbox { min-width:170px; }
+
+#clapat-settings .divby3  input, #clapat-settings .divby3  select { width:100%; }
+
+
+#siteSections .toggledContent { display:none; }
+
+ul > li.grid-item { display:inline-block; margin:0 10px 10px 0; border:2px solid #eee; padding:5px; }
+
+#clapat-settings input.opacity { width:30px; }
+
+
+
+p.switch-options{ margin: 0; }
+p.switch-options:after { content:'.'; line-height:0;height:0; display:block; width:100%; visibility:hidden; clear:both;}
+.cb-enable, .cb-disable, .cb-enable span, .cb-disable span { background: url(../images/switch.gif) repeat-x; display: block; float: left; }
+	.cb-enable span, .cb-disable span { line-height: 30px; display: block; background-repeat: no-repeat; font-weight: bold; }
+	.cb-enable span { background-position: left -90px; padding: 0 10px; }
+	.cb-disable span { background-position: right -180px;padding: 0 10px; }
+	.cb-disable.selected { background-position: 0 -30px; }
+	.cb-disable.selected span { background-position: right -210px; color: #fff; }
+	.cb-enable.selected { background-position: 0 -60px; }
+	.cb-enable.selected span { background-position: left -150px; color: #fff; }
+	.switch-options label { cursor: pointer; }
+	.switch-options input { display: none; }
+	.cb-enable span, .cb-disable span{
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-o-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	

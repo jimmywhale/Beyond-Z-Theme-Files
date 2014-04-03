@@ -1,0 +1,726 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Eleven 1.0.0.2\n"
+"POT-Creation-Date: 2013-05-12 22:14+0200\n"
+"PO-Revision-Date: 2013-05-12 22:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: Clapat\n"
+"Language: EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _e;__;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../current/comments.php:21
+msgid "Comments"
+msgstr ""
+
+#: ../current/comments.php:30
+msgid "Comment navigation"
+msgstr ""
+
+#: ../current/comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../current/comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../current/comments.php:41
+msgid "Comments are closed."
+msgstr ""
+
+#: ../current/comments.php:47 ../current/clapat/class.shortcode.php:662
+msgid "Name"
+msgstr ""
+
+#: ../current/comments.php:48 ../current/clapat/class.shortcode.php:663
+msgid "E-mail"
+msgstr ""
+
+#: ../current/comments.php:49
+msgid "Website"
+msgstr ""
+
+#: ../current/comments.php:55
+msgid "Leave a comment"
+msgstr ""
+
+#: ../current/comments.php:56
+#, php-format
+msgid "Leave a comment to %s"
+msgstr ""
+
+#: ../current/comments.php:57
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../current/comments.php:58
+msgid "Post Comment"
+msgstr ""
+
+#: ../current/comments.php:60
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../current/comments.php:61
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: ../current/comments.php:62
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../current/comments.php:63
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: ../current/footer.php:23 ../current/clapat/class.admin.php:646
+msgid "Email"
+msgstr ""
+
+#: ../current/footer.php:25 ../current/clapat/class.admin.php:648
+#: ../current/clapat/class.shortcode.php:664
+msgid "Phone"
+msgstr ""
+
+#: ../current/footer.php:37
+msgid "&copy; 2103 Eleven Media. All Rights Reserved."
+msgstr ""
+
+#: ../current/index.php:18 ../current/single-portfolio.php:33
+#: ../current/single.php:32
+msgid "Back"
+msgstr ""
+
+#: ../current/single-portfolio.php:94
+msgid "Launch website"
+msgstr ""
+
+#: ../current/single-portfolio.php:101
+msgid "What we did"
+msgstr ""
+
+#: ../current/single.php:76
+msgid "No Tags"
+msgstr ""
+
+#: ../current/template-responsive.php:30
+msgid "Home"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:33
+msgid "Configure shortcode fields"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:73
+msgid "Captcha code is not correct. Try again"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:81
+msgid "New message from website"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:82
+msgid "Message sent"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:84
+msgid "Failed to send"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:87
+msgid "Invalid input data"
+msgstr ""
+
+#: ../current/clapat/AjaxCall.php:92
+msgid "Nothing to do..."
+msgstr ""
+
+#: ../current/clapat/class.admin.php:97
+msgid "Options saved!!"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:99
+msgid "Options not saved!!!"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:114
+msgid "Skin was deleted"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:117
+msgid "Cannot delete skin file"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:121
+msgid "Skin file does not exist!!"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:221
+msgid "Code to insert"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:257
+msgid "Use pattern above separators"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:260 ../current/clapat/class.admin.php:291
+msgid "Save sections"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:265 ../current/clapat/class.admin.php:309
+msgid "Section ID"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:267 ../current/clapat/class.admin.php:318
+msgid "Section name"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:269 ../current/clapat/class.admin.php:312
+msgid "Layout type"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:271
+msgid "Keep current"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:272 ../current/clapat/class.admin.php:314
+msgid "Boxed"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:273 ../current/clapat/class.admin.php:315
+msgid "Full"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:274 ../current/clapat/class.admin.php:316
+msgid "External"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:274 ../current/clapat/class.admin.php:316
+msgid "Link"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:276 ../current/clapat/class.admin.php:320
+msgid "Section content"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:278
+msgid "Separator background"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:279 ../current/clapat/class.admin.php:323
+msgid "Choose image"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:282 ../current/clapat/class.admin.php:327
+msgid "Section separator content"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:297
+msgid "Add element to section"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:304
+msgid "Website sections"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:395
+msgid "Section ID cannot be empty!"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:589
+msgid "Design customisation"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:590
+msgid "General settings"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:592
+msgid "Contact settings"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:593
+msgid "Footer section"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:594
+msgid "Import / Export settings"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:599
+msgid "Main Image Slider"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:600
+msgid "Slider used on first page"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:605
+msgid "You can use here any slider or static content. Shortcodes are available"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:614
+msgid "Show favicon"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:617
+msgid "Custom Logo &amp; favicon"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:618
+msgid "Favicon image"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:620
+msgid "Logo image"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:622
+msgid "Logo position"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:628
+msgid ""
+"If no image is selected, logo will contain site name and site description!"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:631
+msgid "Recaptcha key"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:632
+msgid "Private key"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:634
+msgid "Public key"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:637
+msgid "Other settings"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:638
+msgid "Excerpt length"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:645
+msgid "Contact info"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:651
+msgid "Social media accounts"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:654
+msgid "Site"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:655
+msgid "Visible"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:656
+msgid "URL"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:671
+msgid "Copyright text"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:677
+msgid "Typography"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:678
+msgid "Note"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:678
+msgid "If you want to use default color let color input blank."
+msgstr ""
+
+#: ../current/clapat/class.admin.php:708
+msgid "Reset"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:742
+msgid "No valid skins found"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:745
+msgid "Navigation bar background image"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:747
+msgid "If no image is selected, background will have color defined before"
+msgstr ""
+
+#: ../current/clapat/class.admin.php:748
+msgid "Save palette as new skin"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:85
+msgid "Our newsletter"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:85
+msgid "E-mail here"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:85
+msgid "Your name"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:85
+#: ../current/clapat/class.shortcode.php:669
+msgid "Submit"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:145
+msgid "Stay tuned. Read our news"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:174
+msgid "News"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:177
+msgid "View Details"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:189
+#: ../current/clapat/functions.clapat.php:263
+msgid "Testimonials"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:221
+#: ../current/clapat/functions.clapat.php:329
+msgid "Portfolio"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:362
+msgid "Read more"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:658
+msgid "Send us a message"
+msgstr ""
+
+#: ../current/clapat/class.shortcode.php:667
+msgid "Message"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:157
+msgid "Search Categories"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:158
+msgid "All Categories"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:159
+msgid "Parent Category"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:160
+msgid "Parent Category:"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:161
+msgid "Edit Category"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:162
+msgid "Update Category"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:163
+msgid "Add New Category"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:164
+msgid "New Category"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:165
+msgid "Categories"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:187
+msgid "Add New Slide"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:188
+msgid "Edit Slide"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:189
+msgid "New Slide"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:190
+msgid "All Slides"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:191
+msgid "View Slides"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:192
+msgid "Search Slides"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:193
+msgid "No Slide found"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:194
+msgid "No Slide found in Trash"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:196
+msgid "Home slider"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:220
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:221
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:222
+msgid "New Team Member"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:223
+msgid "All Team Members"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:224
+msgid "View Team Members"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:225
+msgid "Search Team Members"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:226
+msgid "No team Member found"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:227
+msgid "No team Member found in Trash"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:229
+msgid "Our team"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:254
+msgid "Add Testimonial"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:255
+msgid "Edit Testimonial"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:256
+msgid "New Testimonial"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:257
+msgid "All Testimonials"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:258
+msgid "View Testimonials"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:259
+msgid "Search Testimonials"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:260
+msgid "No Testimonial found"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:261
+msgid "No Testimonial found in Trash"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:287
+msgid "Add New Client"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:288
+msgid "Edit Client"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:289
+msgid "New Client"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:290
+msgid "All Clients"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:291
+msgid "View Clients"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:292
+msgid "Search Clients"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:293
+msgid "No Client found"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:294
+msgid "No Client found in Trash"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:296
+msgid "Clients"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:320
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:321
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:322
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:323
+msgid "All Portfolio"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:324
+msgid "View Portfolio"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:325
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:326
+msgid "No Portfolio Item found"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:327
+msgid "No Portfolio Item found in Trash"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:363
+msgid "Default sidebar"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:398
+msgid "Site Sections"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:399
+msgid "Theme options"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:579
+msgid "Project URL"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:580
+#: ../current/clapat/functions.clapat.php:583
+#: ../current/clapat/functions.clapat.php:606
+#: ../current/clapat/functions.clapat.php:634
+#: ../current/clapat/functions.clapat.php:713
+msgid "Tip"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:580
+msgid "Leave this empty if you don`t want to display \"Launch website\" button"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:582
+msgid "What we did?"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:583
+#: ../current/clapat/functions.clapat.php:606
+msgid "You can drag & drop fields to change order displayed into project page."
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:584
+#: ../current/clapat/functions.clapat.php:604
+msgid "Add \"What we did\""
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:605
+#: ../current/clapat/functions.clapat.php:712
+msgid "Image gallery"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:633
+msgid "Youtube video"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:634
+msgid "You can add a video to play on top of page instead of image gallery"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:635
+msgid "Video URL"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:713
+msgid "You can drag & drop fields to change order displayed into slider."
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:783
+#: ../current/clapat/functions.clapat.php:796
+msgid "Default"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:814
+msgid "Pingback:"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:814
+msgid "(Edit)"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:829
+msgid "author"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:833
+msgid "Edit"
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:837
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../current/clapat/functions.clapat.php:845
+msgid "Reply"
+msgstr ""

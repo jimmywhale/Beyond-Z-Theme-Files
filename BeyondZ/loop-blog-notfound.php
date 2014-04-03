@@ -1,0 +1,1 @@
+<?php the_post(); $class="";?><div class="post clearfix">	<div class="clearfix">		Sorry, but we don't have any blog posts.	</div></div>

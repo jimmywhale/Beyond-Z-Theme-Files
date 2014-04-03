@@ -1,0 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+body { color:#5c5c5c; font-size:13px; font-family:'Open Sans';} 
+
+h1 {   font-family:'Montserrat';} 
+
+h2 {  font-size:38px; font-family:'Montserrat';} 
+
+h3 {  font-size:23px; font-family:'Raleway';} 
+
+h4 {   font-family:'PT Sans';} 
+
+h5 { color:#00afed;  font-family:'Raleway';} 
+
+#menu a, #menu a:active, #menu a:visited,#menu-new-style a, #menu-new-style a:active, #menu-new-style a:visited { color:#5e5e5e; font-size:18px; font-family:'Montserrat';} 
+

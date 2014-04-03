@@ -1,0 +1,754 @@
+@charset "utf-8";
+/* -------------------------------------------------------------------------------
+
+    0.  Reset & Clearfix
+    1.  General
+    2.  Menu
+    3.  Pages and Subpages
+    4.  Separators
+    5.  Home Page
+    6.  About Us
+    7.  Our Services
+    8.  Portfolio
+    9.  Portfolio Images Hover Effects
+    10. Portfolio Project page
+    11. Portfolio Testimonials
+    12. News
+	13. News Images Hover Effects
+	14. News Post Page
+	15. Twitter
+    16. Contact
+	17. Footer
+    18. Media Queries
+	
+*/
+
+/* ------- */
+/*
+/* ------- */
+.clapat-tabs .list-wrap { background:%grey6; clear: both; margin: 0 0 10px; padding: 20px;}
+
+.clapat-tabs .ui-tabs-nav li.ui-state-active a, .clapat-tabs .ui-tabs-nav li.ui-state-active a:hover ,
+.widget .tab-inside.clapat-tabs >ul li.ui-state-active a, .widget .tab-inside.clapat-tabs >ul li.ui-state-active a:hover  {
+    background-color:%secondary;
+    color: %white;
+}
+.widget_ionuttabs .widget-comment  > a { color:%secondary; }
+.widget_ionuttabs .widget-comment  > span { color:%grey7; }
+.widget_ionuttabs .list-wrap  { background:%grey5; }
+.dropcap.dc-color:first-letter {
+   color: %secondary;
+}
+
+.dropcap.dc-background:first-letter {
+   background-color: %secondary;
+   color: %white;
+}
+.dropcap.dc-background.dc-black:first-letter {
+   background-color: %black;
+   color: %white;
+}
+
+.dropcap.dc-black:first-letter {
+   color: %black;
+}
+
+.large-notice-light {
+    background-color: %grey2;
+}
+.large-notice-dark {
+    background-color: %black;
+}
+.large-notice-dark h2 {
+    color: %white;
+}
+.large-notice-light h2 {
+    color: %black;
+}
+
+.square-list li, .check-list li, .plus-list li, .arrow-list li, .cross-list li, .star-list li, .minus-list li, .arrow2-list li, .circle-list li {
+    color: %grey9;
+}
+.square-list li:hover, .check-list li:hover, .plus-list li:hover, .arrow-list li:hover, .cross-list li:hover, .star-list li:hover, .minus-list li:hover, .arrow2-list li:hover, .circle-list li:hover {
+    color: %secondary;
+}
+
+/* ------------------------------------------------------------------------------- */
+/*  1. General
+/* ------------------------------------------------------------------------------- */	
+
+	html,body{
+		font-family: 'Arial';
+		font-size:12px;
+		width:100%;
+		height:100%;
+		color:%grey4;		
+	}
+	
+	.white {
+		color:%white;
+	}
+	
+	.color {
+		color:%secondary;
+	}
+	
+	.black {
+		color:%grey12;
+	}
+	
+	a, li {
+        color: %grey10;
+    }
+
+	.btn-small, #submit {
+		background:%secondary;
+	}
+	
+	.btn-small, #submit {
+		color: %white;
+	}
+	
+	.btn-small:hover, #submit:hover {
+		background:%grey12;
+		color:%white;
+	}
+	.clapat-button,  #submit, #searchsubmit {
+
+		background:%secondary;
+		color: %white;
+
+}
+
+	.clapat-button:hover, #submit:hover, #searchsubmit:hover {
+
+		background:%grey12;
+		color:%white;
+}
+
+
+/* ------------------------------------------------------------------------------- */
+/*  2. Menu
+/* ------------------------------------------------------------------------------- */
+
+
+	#navigation {
+		background:%navi;	
+	}
+	
+	#logo {
+		color:%white;
+	}
+	
+	#navigation a, #navigation a:active, #navigation a:visited {
+		color:%grey9;
+	}
+
+	#navigation ul#menu li:hover a, #navigation ul#menu li.current a {
+		color: %white;
+		border-top:0;
+	}
+	
+	#navigation ul#menu-new-style.small li:hover a, #navigation ul#menu-new-style.small li.current a {
+		color: %black;
+	}
+	#navigation ul#menu-new-style li:hover a, #navigation ul#menu-new-style li.current a {
+		color: %white;
+	}
+	
+	#navigation ul#menu li:hover a, #navigation ul#menu li.current a {
+		border-top: 5px solid %secondary;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  3. Pages and Subpages
+/* ------------------------------------------------------------------------------- */
+
+
+	#index {
+		background:%black;
+	}
+	
+	.ourteam {
+		background:%grey2;
+	}
+	
+	.newsletter {
+		background:%secondary;
+	}
+	
+	.projects-filters {
+		background:%grey12;
+	}
+	
+	#news {
+		background:%grey3;
+	}
+	
+	.twitter {
+		background:%secondary;
+	}
+	
+	.contact-header {
+		background:%white;
+	}
+	
+	.contact-form {
+		background:%grey1;
+	}
+	
+	.footer {
+		background:%grey12;
+	}
+
+
+/* ------------------------------------------------------------------------------- */
+/*  5. Home Page
+/* ------------------------------------------------------------------------------- */
+
+
+	#maximage {
+		background:%black;						
+	}
+
+	
+	.in-slide-content h1{ 		
+		color:%white;
+		border-bottom:%white solid 1px;
+	}
+	
+	.in-slide-content p{ 		
+		color:%white;		
+	}
+
+	
+/* ------------------------------------------------------------------------------- */
+/*  6. About Us
+/* ------------------------------------------------------------------------------- */
+
+	
+	.meter { 
+		background:%grey2;
+	}
+	
+	.meter > div {
+		background-color:%secondary;
+	}
+	
+	.team {
+		background-color:%white;
+	}
+	
+	
+	.team-overlay {
+		background-color:%white;
+	}
+	
+	p.team-function {
+		color:%grey4;
+	}
+	
+	p.team-description {
+		color:%grey10;
+	}
+	
+	.team-social {
+		background-color:%grey12;
+	}
+	
+	.team-social:hover {
+		background-color:%secondary;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  7. Our Services
+/* ------------------------------------------------------------------------------- */
+
+	input.newsletter-email, input.newsletter-name {
+		background:%white;
+		color:%grey8;
+	}
+	
+	button.newsletter-sent {
+		color: %grey9;
+		background:%grey12;
+
+	}
+	
+	button.newsletter-sent:hover {
+		background:%grey12;
+		color:%white;
+	}
+
+
+/* ------------------------------------------------------------------------------- */
+/*  8. Portfolio
+/* ------------------------------------------------------------------------------- */
+
+	
+	nav.primary ul li a {
+		color:%grey9;
+		background:%grey11;
+	}
+	
+	nav.primary ul li a:hover {
+		color:%grey11;
+		background:%white;
+	}
+	
+	nav.primary ul li a:active, nav.primary ul li a.selected {
+		background:%secondary;
+		color:%white;
+	}	
+
+/* ------------------------------------------------------------------------------- */
+/*  9. Portfolio Images Hover Effects
+/* ------------------------------------------------------------------------------- */
+	
+
+	.view .mask {
+	   background:%secondary;
+	}
+	
+	
+	.mask h5 {
+		color:%white;
+	}
+	
+	.mask p {
+		color:%white;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  10. Portfolio Project page
+/* ------------------------------------------------------------------------------- */	
+	
+	.project_page {
+		background-color:%white;
+	}
+	
+	
+	.categories li, .categories li:last-child {
+		border-bottom: 1px solid %grey5;
+	}
+	.categories li a {
+		color: %grey4;
+	}
+	.categories li a:hover {
+		color: %black;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  11. Portfolio Testimonials
+/* ------------------------------------------------------------------------------- */		
+	
+	.carousel_testimonials li h5 {
+		color:%black;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  12. News
+/* ------------------------------------------------------------------------------- */
+	
+	
+	.container-news {
+		background:%grey3;
+	}
+	
+	.container-news h1 {
+		color:%black;
+	}	
+
+	.list_carousel li {
+		background-color: %grey6;
+	}
+	
+	.list_carousel li h5 {
+		color:%black;
+	}
+	
+	p.news-date {
+		color:%grey4;
+	}
+	
+	.prev {
+		background-color:%white;		
+	}
+	
+	.prev:hover {
+		background-color:%secondary;
+	}
+	
+	.next {
+		background-color:%white;
+	}
+	
+	.next:hover {
+		background-color:%secondary;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  13. News Images Hover Effects
+/* ------------------------------------------------------------------------------- */
+
+	.news .mask {
+	   background: rgba(0, 0, 0, 0.5);
+	}
+	
+	.news  a.icon.zoom {
+		background-color:%white ;
+	}
+	
+	.news a.icon.zoom:hover {
+		background-color:%white;
+	}
+	
+	.news-intro {
+		background:%white;
+	}
+	
+
+
+/* ------------------------------------------------------------------------------- */
+/*  14. News Post page
+/* ------------------------------------------------------------------------------- */		
+	
+	.news_page {
+		background-color:%white;
+	}
+	
+	.comment-date, p.post-admin, p.post-calendar, p.post-tagss, p.post-commentss {
+		color:%grey4;
+	}
+	
+	.news_comments {
+		background-color:%grey1;
+		border-top: solid 1px %grey3;
+	}
+	
+	.comment-content {
+		color:%grey10;
+	}
+
+	h3#reply-title { color:%grey12; }
+
+/* ------------------------------------------------------------------------------- */
+/*  15. Twitter
+/* ------------------------------------------------------------------------------- */	
+	
+	.twitter h2 {
+		color:%white;
+	}
+	
+/* ------------------------------------------------------------------------------- */
+/*  16. Contact
+/* ------------------------------------------------------------------------------- */	
+	
+	input, textarea {
+		background:%white;
+		
+	}
+	
+	input,input:focus, textarea, textarea:focus {
+		color:%grey13;
+	}
+	
+	input.send_message {
+		background:%secondary;
+		color:%white;
+
+	}
+	
+	input.send_message:hover {
+		background:%grey12;
+	}
+	
+	.error_message {
+		background-color: #FFE9E9;
+		border-color: #FBC4C4;
+		color: #DE5959;
+	}
+
+	
+	fieldset h1{
+		color:%black
+	}
+
+	#c-contact { background:%grey1; }
+
+
+/* ------------------------------------------------------------------------------- */
+/*  17. Footer
+/* ------------------------------------------------------------------------------- */	
+	
+	
+	.footer ul.contactus li [class^="icon-"], .the-icons li [class*=" icon-"],
+	.footer ul.contactus li [class^="fa-"], .the-icons li [class*=" fa-"] {
+		color: %secondary;
+	}
+
+	
+	.footer-social {
+		background-color:%grey11;
+	}
+	
+	.footer-social:hover {
+		background-color:%secondary;
+	}
+	
+	
+	.footer ul.contactus {
+		border-bottom: 1px solid %grey11;
+	}
+	
+	.footer ul.contactus li {
+		color: %white;
+	}
+	
+	.footer ul.contactus li span.phone {
+		color: %white;
+	}
+	
+	.copyright {
+		border-top: 1px solid %grey11;
+	}
+	
+	.copyright p{
+		color:%white;
+	}
+
+	
+	
+/*
+404 page
+*/
+.twitter.e404 { color:%white; }
+
+#page.e404 .error { color:%secondary; }
+#page.e404 .errortext { color:%black; }
+#page.e404 .backhome { color:%white; background:%secondary; }
+/*
+Notify box
+*/
+.sh-notify { background:%grey6; border:1px solid %grey5; }
+.sh-notify-title { color:#4c4c4c;  }
+
+.accordionButton.black {
+    background: url("../images/accordion-up.png") no-repeat scroll left center %navi;
+	color: %white;
+}
+.accordionContent.black p {
+    color: %grey9;
+}
+
+.accordionButton.black.ui-state-hover, .accordionButton.ui-accordion-header-active{
+    background: url("../images/accordion-down.png") no-repeat scroll left center %secondary;
+    color: %white;
+}
+.accordionButton.black.over {
+    background: url("../images/accordion-up.png") no-repeat scroll left center %secondary;
+    color: %white;
+}
+.accordionButton.color {
+    background: url("../images/accordion-up.png") no-repeat scroll left center %secondary;
+	color: %white;
+}
+.accordionContent.color p {
+    color: %grey9;
+    padding: 10px 20px 20px;
+}
+.accordionButton.color.ui-state-hover {
+    background: url("../images/accordion-down.png") no-repeat scroll left center %black;
+    color: %white;
+}
+.accordionButton.color.over {
+    background: url("../images/accordion-up.png") no-repeat scroll left center %black;
+    color: %white;
+}
+
+
+.pricing-table p , .pricing-table-second h4 span {
+    color: %secondary;
+}
+
+.pricing-table-second .table-title {
+    background: none repeat scroll 0 0 %secondary;
+	}
+.b-color {
+    background: none repeat scroll 0 0 %secondary;
+}
+.b-grey {
+    background: none repeat scroll 0 0 #7F7F7F;
+}
+.b-black {
+    background: none repeat scroll 0 0 %black;
+}
+.pricing-table .column h2 { color:%secondary; }
+
+.pricing-table-second h2 {
+    color: %white;
+	background:%secondary;
+}
+
+@media only screen and (max-width: 959px) {
+	#navigation ul#menu li:hover a, #navigation ul#menu li.current a {
+		color: %black;
+		border-top: 0px; 
+	}
+}
+
+
+
+/* 1.3 */
+
+.blog .post { border-bottom:1px solid %grey5; }
+.blog .postquote.wrap { border-bottom:1px solid %grey5; }
+.blog .posthead .social a:hover, .project.posthead .social a:hover { color:%secondary; }
+.blog .tagcloud a:hover { background:%secondary; }
+.blog .widget > ul li a { border-top:1px solid %grey5; color:%secondary; }
+.blog .widget > ul li a:hover { color:%grey12; }
+.blog .post.quote,
+.post.big-quote { background:%secondary;}
+.blog .post.quote:hover,
+.post.big-quote:hover { background:%black;}
+.blog .post.quote .pcontent, 
+.blog .post.quote .title, 
+.blog .post.quote .title a, 
+.blog .post.quote .meta *,
+.blog .post.quote .meta a,
+.post.big-quote .pcontent, 
+.post.big-quote { color:%white; border-color:%white; }
+
+
+#wp-calendar { border:1px solid %grey5;  }
+#wp-calendar a { background:%secondary; color:%white; }
+#wp-calendar a:hover { background:%grey11; }
+#wp-calendar caption { background:%secondary; color:%white;  }
+
+
+.toggle > a { color: %black; }
+.toggle > a.open { background-color:%secondary; color:%grey1;  }
+.toggle > a i {  color:%black; }
+.toggle > a.open i {  color:%grey1; }
+
+
+
+.call-to-action { 	background-color: %grey2; } 
+.call-to-action .container a {
+	background: none repeat scroll 0 0 %secondary;
+	}
+.call-to-action .triangle {   border-top: 10px solid %white;}
+.call-to-action a { color:%grey1; }
+.call-to-action span {
+	color:%secondary;
+}
+
+
+	
+	.footer ul.contactus li {color: %white;
+	}
+
+
+	.footer ul.contactus li [class^="icon-"], .the-icons li [class*=" icon-"],
+	.footer ul.contactus li [class^="fa-"], .the-icons li [class*=" fa-"] {
+		color: %secondary;
+	}
+
+	.footer ul.contactus li span.phone {
+	color: %white;
+	}
+
+	.team {
+		background-color: %white;
+	}
+
+	.news-intro {
+		background: none repeat scroll 0 0 %white;	
+	}
+
+
+@media only screen and (max-width: 479px) {
+	#logo {
+	color: %white;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+#navigation ul#menu {
+		background: url("../images/icon-menu.png") no-repeat scroll 10px 11px %white;
+	}
+
+}
+
+.pricing-table-second .column, .pricing-table .level-max .footer {
+    background: none repeat scroll 0 0 %white;
+    border-top: 1px solid #EAEAEA;
+}
+	
+.ebtn.btn-small, .clapat-notify .btn-large, .ebtn.btn-large {
+	color: %white;
+}	
+	.ebtn.btn-small:hover {
+    color: %white;
+    opacity: 1;
+}
+	
+.clapat-notify .btn-large:hover , .ebtn.btn-large:hover , .clapat-notify  .btn-medium:hover, .ebtn.btn-medium:hover {
+    color: %white;
+    opacity: 1;
+}	
+	
+.b-color {
+    background: none repeat scroll 0 0 %secondary;
+}
+.b-grey {
+    background: none repeat scroll 0 0 #7F7F7F;
+}
+.b-black {
+    background: none repeat scroll 0 0 %black;
+}	
+	
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	.pricing-table .level-max {
+		background: none repeat scroll 0 0 %white;
+	}
+}	
+
+.pricing-table .level-max {
+background: none repeat scroll 0 0 %white;
+}
+
+.clapat-notify  .btn-medium, .btn.btn-medium {
+color: %white;
+}
+.pricing-table .column {
+	background: none repeat scroll 0 0 %white;
+    border: 10px solid #EAEAEA;
+}	
+.call-to-action .container a {
+color:%white;
+}	
+.blog .tagcloud a {  color:%white; }	
+
+
+
+div.postnav > a { background:%secondary; }
+div.postnav > a:hover { background:%grey12; }
+div.postnav  span { color:%white; }	
+
+
+.blog.single .comment-edit-link,
+.blog.single .comment-reply-link {
+	background:%secondary;
+	color:%white;
+}
+
+/* Added by VDC */
+
+.mc4wp-form {background:%secondary;}
+.mc4wp-form.form  div  input[type="submit"] {color:%grey9;background:%grey12;}
+.mc4wp-form.form  div  input[type="submit"]:hover {color:%white;}
+
+
+.newsletter-subscription input[type="submit"] {color:%grey9;background:%grey12;}
+.newsletter-subscription input[type="submit"]:hover {color:%white;}

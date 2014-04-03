@@ -1,0 +1,474 @@
+@charset "utf-8";
+/* -------------------------------------------------------------------------------
+
+    0.  Reset & Clearfix
+    1.  General
+    2.  Menu
+    3.  Pages and Subpages
+    4.  Separators
+    5.  Home Page
+    6.  About Us
+    7.  Our Services
+    8.  Portfolio
+    9.  Portfolio Images Hover Effects
+    10. Portfolio Project page
+    11. Portfolio Testimonials
+    12. News
+	13. News Images Hover Effects
+	14. News Post Page
+	15. Twitter
+    16. Contact
+	17. Footer
+    18. Media Queries
+	
+*/
+
+/* ------------------------------------------------------------------------------- */
+/*  1. General
+/* ------------------------------------------------------------------------------- */	
+
+	html,body{
+		font-family: 'Arial';
+		font-size:12px;
+		width:100%;
+		height:100%;
+		color:#ABABAB;		
+	}
+	
+	.white {
+		color:#FFFFFF;
+	}
+	
+	.color {
+		color:#ef4a4a;
+	}
+	
+	.black {
+		color:#262932;
+	}
+	
+	a, li {
+        color: #555555;
+    }
+
+	.btn-small, #submit {
+		background:#ef4a4a;
+	}
+	
+	.btn-small, #submit {
+		color: #FFFFFF;
+	}
+	
+	.btn-small:hover, #submit:hover {
+		background:#262932;
+		color:#FFFFFF;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  2. Menu
+/* ------------------------------------------------------------------------------- */
+
+
+	#navigation {
+		background:#1e2024;	
+	}
+	
+	#logo {
+		color:#FFFFFF;
+	}
+	
+	#navigation a, #navigation a:active, #navigation a:visited {
+		color:#7f7f7f;
+	}
+
+	#navigation ul li:hover a, #navigation ul li.current a {
+		color: #FFFFFF;
+		border-top: 5px solid #ef4a4a;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  3. Pages and Subpages
+/* ------------------------------------------------------------------------------- */
+
+
+	#index {
+		background:#000000;
+	}
+	
+	.ourteam {
+		background:#ebebeb;
+	}
+	
+	.newsletter {
+		background:#ef4a4a;
+	}
+	
+	.projects-filters {
+		background:#262932;
+	}
+	
+	#news {
+		background:#dddddd;
+	}
+	
+	.twitter {
+		background:#ef4a4a;
+	}
+	
+	.contact-header {
+		background:#FFFFFF;
+	}
+	
+	.contact-form {
+		background:#ECECEC;
+	}
+	
+	.footer {
+		background:#262932;
+	}
+
+
+/* ------------------------------------------------------------------------------- */
+/*  5. Home Page
+/* ------------------------------------------------------------------------------- */
+
+
+	#maximage {
+		background:#000000;						
+	}
+
+	
+	.in-slide-content h1{ 		
+		color:#FFFFFF;
+		border-bottom:#FFFFFF solid 1px;
+	}
+	
+	.in-slide-content p{ 		
+		color:#FFFFFF;		
+	}
+
+	
+/* ------------------------------------------------------------------------------- */
+/*  6. About Us
+/* ------------------------------------------------------------------------------- */
+
+	
+	.meter { 
+		background:#ebebeb;
+	}
+	
+	.meter > div {
+		background-color:#ef4a4a;
+	}
+	
+	.team {
+		background-color:#FFFFFF;
+	}
+	
+	
+	.team-overlay {
+		background-color:#FFFFFF;
+	}
+	
+	p.team-function {
+		color:#A1A1A1;
+	}
+	
+	p.team-description {
+		color:#555555;
+	}
+	
+	.team-social {
+		background-color:#262932;
+	}
+	
+	.team-social:hover {
+		background-color:#ef4a4a;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  7. Our Services
+/* ------------------------------------------------------------------------------- */
+
+	input.newsletter-email, input.newsletter-name {
+		background:#FFFFFF;
+		color:#C4C4C4;
+	}
+	
+	button.newsletter-sent {
+		color: #7F7F7F;
+		background:#262932;
+
+	}
+	
+	button.newsletter-sent:hover {
+		background:#262932;
+		color:#FFFFFF;
+	}
+
+
+/* ------------------------------------------------------------------------------- */
+/*  8. Portfolio
+/* ------------------------------------------------------------------------------- */
+
+	
+	nav.primary ul li a {
+		color:#7f7f7f;
+		background:#363942;
+	}
+	
+	nav.primary ul li a:hover {
+		color:#363942;
+		background:#FFFFFF;
+	}
+	
+	nav.primary ul li a:active, nav.primary ul li a.selected {
+		background:#ef4a4a;
+		color:#FFFFFF;
+	}	
+
+/* ------------------------------------------------------------------------------- */
+/*  9. Portfolio Images Hover Effects
+/* ------------------------------------------------------------------------------- */
+	
+
+	.view .mask {
+	   background:#ef4a4a;
+	}
+	
+	
+	.mask h5 {
+		color:#FFFFFF;
+	}
+	
+	.mask p {
+		color:#FFFFFF;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  10. Portfolio Project page
+/* ------------------------------------------------------------------------------- */	
+	
+	.project_page {
+		background-color:#FFFFFF;
+	}
+	
+	
+	.categories li {
+		border-top: 1px solid #F2F2F2;
+	}
+	.categories li:last-child {
+		border-bottom: 1px solid #F2F2F2;
+	}
+	.categories li a {
+		color: #ababab;
+	}
+	.categories li a:hover {
+		color: #000000;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  11. Portfolio Testimonials
+/* ------------------------------------------------------------------------------- */		
+	
+	.carousel_testimonials li h5 {
+		color:#000000;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  12. News
+/* ------------------------------------------------------------------------------- */
+	
+	
+	.container-news {
+		background:#dddddd;
+	}
+	
+	.container-news h1 {
+		color:#000000;
+	}	
+
+	.list_carousel li {
+		background-color: #eee;
+	}
+	
+	.list_carousel li h5 {
+		color:#000000;
+	}
+	
+	p.news-date {
+		color:#a1a1a1;
+	}
+	
+	.prev {
+		background-color:#FFFFFF;		
+	}
+	
+	.prev:hover {
+		background-color:#ef4a4a;
+	}
+	
+	.next {
+		background-color:#FFFFFF;
+	}
+	
+	.next:hover {
+		background-color:#ef4a4a;
+	}
+
+/* ------------------------------------------------------------------------------- */
+/*  13. News Images Hover Effects
+/* ------------------------------------------------------------------------------- */
+
+	.news .mask {
+	   background: rgba(0, 0, 0, 0.5);
+	}
+	
+	.news  a.icon.zoom {
+		background-color:#FFFFFF ;
+	}
+	
+	.news a.icon.zoom:hover {
+		background-color:#FFFFFF;
+	}
+	
+	.news-intro {
+		background:#FFFFFF;
+	}
+	
+
+
+/* ------------------------------------------------------------------------------- */
+/*  14. News Post page
+/* ------------------------------------------------------------------------------- */		
+	
+	.news_page {
+		background-color:#FFFFFF;
+	}
+	
+	p.post-admin {
+		color:#A1A1A1;
+	}
+	
+	p.post-calendar {
+		color:#A1A1A1;
+	}
+	
+	p.post-tagss {
+		color:#A1A1A1;
+	}
+	
+	p.post-commentss {
+		color:#A1A1A1;
+	}
+	
+	.news_comments {
+		background-color:#ECECEC;
+		border-top: #dddddd solid 1px;
+	}
+	
+	.comment-date {
+
+		color:#a1a1a1;
+	}
+	
+	.comment-content {
+		color:#555555;
+	}
+
+	h3#reply-title { color:#262932; }
+
+/* ------------------------------------------------------------------------------- */
+/*  15. Twitter
+/* ------------------------------------------------------------------------------- */	
+	
+	.twitter h2 {
+		color:#FFFFFF;
+	}
+	
+/* ------------------------------------------------------------------------------- */
+/*  16. Contact
+/* ------------------------------------------------------------------------------- */	
+	
+	input {
+		background:#FFFFFF;
+		color:#808080;
+	}
+	
+	input:focus {
+		color:#808080;
+	}
+	
+	textarea {
+		background:#FFFFFF;
+		color:#808080;
+	}
+	
+	textarea:focus {
+		color:#808080;
+	}
+	
+	input.send_message {
+		background:#ef4a4a;
+		color:#FFFFFF;
+
+	}
+	
+	input.send_message:hover {
+		background:#262932;
+	}
+	
+	.error_message {
+		background-color: #FFE9E9;
+		border-color: #FBC4C4;
+		color: #DE5959;
+	}
+
+	
+	fieldset h1{
+		color:#000000
+	}
+
+	#c-contact { background:#ECECEC; }
+
+
+/* ------------------------------------------------------------------------------- */
+/*  17. Footer
+/* ------------------------------------------------------------------------------- */	
+	
+	
+	.footer-social {
+		background-color:#363942;
+	}
+	
+	.footer-social:hover {
+		background-color:#ef4a4a;
+	}
+	
+	
+	.footer ul.contactus {
+		border-bottom: 1px solid #363942;
+	}
+	
+	.footer ul.contactus li {
+		color: #FFFFFF;
+	}
+	
+	.footer ul.contactus li span.phone {
+		color: #FFFFFF;
+	}
+	
+	.copyright {
+		border-top: 1px solid #363942;
+	}
+	
+	.copyright p{
+		color:#FFFFFF;
+	}
+
+
+/*
+Notify box
+*/
+.sh-notify { background:#f7f7f7; border:1px solid #f3f3f3; }
+.sh-notify-title { color:#4c4c4c;  }
